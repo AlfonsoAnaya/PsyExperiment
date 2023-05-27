@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visual Priming Experiment</title>
+</head>
+
+<body>
+    <h2></h2>
+    <form action="process-form.php" method="post">
+        <label for="participant-id">Participant ID</label>
+        <input type="number" id="participant-id" name="participant-id">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="1">Female</option>
+            <option value="2">Male</option>
+            <option value="3">Non-binary</option>
+            <option value="4">Prefer not to say</option>
+        </select>
+        <label for="education">Education</label>
+        <select id="education" name="education">
+            <option value="1">Primary</option>
+            <option value="2">Secondary</option>
+            <option value="3">Higher Education</option>
+            <option value="4">Postgraduate</option>
+        </select>
+        <br>
+        <label for="response-time">Time to Respond</label>
+        <input type="number" id="response-time" name="response-time">
+        <label for="response">Response</label>
+        <select id="response" name="response">
+            <option value="1">Correct</option>
+            <option value="2">Incorrect</option>
+            <option value="3">Invalid</option>
+        </select>
+        <br>
+        <button>Send</button>
+    </form>
+</body>
+
+</html>
